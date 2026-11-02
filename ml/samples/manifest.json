@@ -1,0 +1,32 @@
+[
+  {
+    "key": "normal",
+    "filename": "sample_normal.png",
+    "label_desc": "Normal Patient Chest Radiograph",
+    "url": "/api/samples/sample_normal.png"
+  },
+  {
+    "key": "cardiomegaly",
+    "filename": "sample_cardiomegaly.png",
+    "label_desc": "Cardiomegaly Finding",
+    "url": "/api/samples/sample_cardiomegaly.png"
+  },
+  {
+    "key": "pneumonia",
+    "filename": "sample_pneumonia.png",
+    "label_desc": "Pneumonia Finding",
+    "url": "/api/samples/sample_pneumonia.png"
+  },
+  {
+    "key": "effusion",
+    "filename": "sample_effusion.png",
+    "label_desc": "Pleural Effusion Finding",
+    "url": "/api/samples/sample_effusion.png"
+  },
+  {
+    "key": "multidisease",
+    "filename": "sample_multidisease.png",
+    "label_desc": "Multi-Pathology Presentation",
+    "url": "/api/samples/sample_multidisease.png"
+  }
+]

@@ -1,0 +1,156 @@
+{
+  "task_type": "multi_label",
+  "num_samples": 120,
+  "class_names": [
+    "Atelectasis",
+    "Cardiomegaly",
+    "Effusion",
+    "Infiltration",
+    "Mass",
+    "Nodule",
+    "Pneumonia",
+    "Pneumothorax",
+    "Consolidation",
+    "Edema",
+    "Emphysema",
+    "Fibrosis",
+    "Pleural Thickening",
+    "Hernia"
+  ],
+  "per_class": {
+    "Atelectasis": {
+      "roc_auc": 0.5596,
+      "pr_auc": 0.1582,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "support": 11
+    },
+    "Cardiomegaly": {
+      "roc_auc": 0.589,
+      "pr_auc": 0.0298,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "support": 2
+    },
+    "Effusion": {
+      "roc_auc": 0.7077,
+      "pr_auc": 0.1849,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "support": 9
+    },
+    "Infiltration": {
+      "roc_auc": 0.5697,
+      "pr_auc": 0.2048,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "support": 18
+    },
+    "Mass": {
+      "roc_auc": 0.4615,
+      "pr_auc": 0.0294,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "support": 3
+    },
+    "Nodule": {
+      "roc_auc": 0.5482,
+      "pr_auc": 0.0644,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "support": 6
+    },
+    "Pneumonia": {
+      "roc_auc": 0.5,
+      "pr_auc": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "support": 0
+    },
+    "Pneumothorax": {
+      "roc_auc": 0.5927,
+      "pr_auc": 0.0759,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "support": 4
+    },
+    "Consolidation": {
+      "roc_auc": 0.2924,
+      "pr_auc": 0.0172,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "support": 2
+    },
+    "Edema": {
+      "roc_auc": 0.2269,
+      "pr_auc": 0.0108,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "support": 1
+    },
+    "Emphysema": {
+      "roc_auc": 0.4741,
+      "pr_auc": 0.0498,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "support": 4
+    },
+    "Fibrosis": {
+      "roc_auc": 0.4626,
+      "pr_auc": 0.1364,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "support": 5
+    },
+    "Pleural Thickening": {
+      "roc_auc": 0.5954,
+      "pr_auc": 0.0389,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "support": 3
+    },
+    "Hernia": {
+      "roc_auc": 0.2437,
+      "pr_auc": 0.011,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "support": 1
+    }
+  },
+  "roc_auc": 0.4874,
+  "pr_auc": 0.0722,
+  "f1_score": 0.0,
+  "precision": 0.0,
+  "recall": 0.0,
+  "accuracy": 0.5833,
+  "history": {
+    "train_loss": [
+      0.2802,
+      0.2033
+    ],
+    "val_loss": [
+      0.2431,
+      0.2158
+    ],
+    "epochs": [
+      1,
+      2
+    ]
+  },
+  "architecture": "ResNet50",
+  "dataset": "MedMNIST (ChestMNIST)"
+}
